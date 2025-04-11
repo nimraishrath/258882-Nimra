@@ -1,0 +1,85 @@
+Choice -> 1
+Name: divya
+Department: hr
+Designation: xyz
+Gross Salary: 100000
+Tax: 13
+Bonus: 90000
+Employee added with ID: 892169bb-a138-4964-a9d2-7f59debe0c6d
+
+ Employee Application:
+1. Add employee
+2. View all employeess
+3. Search employee by ID
+4. Delete employee
+5. Exit
+
+Choice -> 1
+Name: sujith
+Department: automation
+Designation: devloper
+Gross Salary: 2689000
+Tax: 1436
+Bonus: 2765479
+Employee added with ID: 95e34186-47c2-4cf3-8e5c-b9cb622cc119
+
+ Employee Application:
+1. Add employee
+2. View all employeess
+3. Search employee by ID
+4. Delete employee
+5. Exit
+
+Choice -> 2
+ec722700-fbc1-40ad-bbd2-842acac22315 - sandy -  software devloper -  Testing -  5001331.0
+892169bb-a138-4964-a9d2-7f59debe0c6d - divya -  hr -  xyz -  189987.0
+95e34186-47c2-4cf3-8e5c-b9cb622cc119 - sujith -  automation -  devloper -  5453043.0
+
+ Employee Application:
+1. Add employee
+2. View all employeess
+3. Search employee by ID
+4. Delete employee
+5. Exit
+
+Choice -> 3
+Enter employee ID to search: 95e34186-47c2-4cf3-8e5c-b9cb622cc119
+Employee found with the id
+
+ Employee Application:
+1. Add employee
+2. View all employeess
+3. Search employee by ID
+4. Delete employee
+5. Exit
+
+Choice -> 4
+Enter the Employee ID to delete: 892169bb-a138-4964-a9d2-7f59debe0c6d
+Employee Deleted
+
+ Employee Application:
+1. Add employee
+2. View all employeess
+3. Search employee by ID
+4. Delete employee
+5. Exit
+
+Choice -> 5
+Goodbye!
+*********************************************************************************************
+TESTING Part
+*********************************************************************************************
+PS C:\Users\Hp\python TSC Trainnig> & "c:/Users/Hp/python TSC Trainnig/fenv/Scripts/python.exe" "c:/Users/Hp/python TSC Trainnig/Hackathon-3/employee_mgmt/test_employee.py"
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+PS C:\Users\Hp\python TSC Trainnig> & "c:/Users/Hp/python TSC Trainnig/fenv/Scripts/python.exe" "c:/Users/Hp/python TSC Trainnig/Hackathon-3/employee_mgmt/test_employee_manager.py"
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+PS C:\Users\Hp\python TSC Trainnig> & "c:/Users/Hp/python TSC Trainnig/fenv/Scripts/python.exe" "c:/Users/Hp/python TSC Trainnig/Hackathon-3/employee_mgmt/test_storage.py"
+.
