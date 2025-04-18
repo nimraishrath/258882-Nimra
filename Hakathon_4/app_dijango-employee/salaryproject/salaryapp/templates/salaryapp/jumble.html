@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jumble Word</title>
+</head>
+<body>
+    <h1>Jumble a Word</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label>Enter a word:</label>
+        <input type="text" name="word" required>
+        <button type="submit">Jumble</button>
+    </form>
+
+    {% if original_word %}
+        <p><strong>Original:</strong> {{ original_word }}</p>
+        <p><strong>Jumbled:</strong> {{ jumbled_word }}</p>
+    {% endif %}
+
+    <br>
+    <a href="{% url 'salary_form' %}">Back to Salary Form</a>
+</body>
+</html>
